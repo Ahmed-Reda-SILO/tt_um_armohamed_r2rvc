@@ -61,7 +61,10 @@ editable layout already includes that conversion.
 
 The official `gds` workflow packages the GDS, LEF, Verilog, and project
 metadata and runs Tiny Tapeout's hosted precheck. Review its result for the
-exact commit being submitted. The viewer deploys from `main`.
+exact commit being submitted. The optional viewer deploys from `main` only
+when the repository variable `ENABLE_GDS_VIEWER` is set to `true`. Enable
+GitHub Pages with GitHub Actions as its source before enabling that variable.
+GDS packaging and precheck run regardless of the viewer setting.
 
 After the submission revision is on `main` and its hosted checks pass, import
 this repository at https://app.tinytapeout.com/projects/create and select the
