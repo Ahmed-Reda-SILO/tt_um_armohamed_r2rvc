@@ -1,0 +1,204 @@
+
+Magic 8.3 revision 568 - Compiled on Wed Nov 18 18:55:00 +03 2026.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/workspace/scratch/21dd87018530/tt_submission/tools/extract_rc.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: library
+Reading "tt_um_armohamed_r2rvc".
+Reading "EF_R2RVC".
+Reading "comparator".
+Reading "arm_r2rvc_lsbufhv2lv".
+CIF file read warning: CIF style sky130(): units rescaled by factor of 5 / 1
+Reading "comparator_bias".
+Extracting tt_um_armohamed_r2rvc_rc into /workspace/scratch/21dd87018530/tt_submission/verification/rc/tt_um_armohamed_r2rvc_rc.ext:
+Warning:  Ports "VGND" and "uo_out[7]" are electrically shorted.
+Warning:  Ports "VGND" and "uo_out[6]" are electrically shorted.
+Warning:  Ports "VGND" and "uo_out[5]" are electrically shorted.
+Warning:  Ports "VGND" and "uo_out[4]" are electrically shorted.
+Warning:  Ports "VGND" and "uo_out[3]" are electrically shorted.
+Warning:  Ports "VGND" and "uo_out[2]" are electrically shorted.
+Warning:  Ports "VGND" and "uo_out[1]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_out[7]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_out[6]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_out[5]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_out[4]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_out[3]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_out[2]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_out[1]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_out[0]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_oe[7]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_oe[6]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_oe[5]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_oe[4]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_oe[3]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_oe[2]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_oe[1]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_oe[0]" are electrically shorted.
+freeMagic called with NULL argument.
+tt_um_armohamed_r2rvc_rc: 16 warnings
+Total of 16 warnings.
+Warning:  Ports "VGND" and "uo_out[7]" are electrically shorted.
+Warning:  Ports "VGND" and "uo_out[6]" are electrically shorted.
+Warning:  Ports "VGND" and "uo_out[5]" are electrically shorted.
+Warning:  Ports "VGND" and "uo_out[4]" are electrically shorted.
+Warning:  Ports "VGND" and "uo_out[3]" are electrically shorted.
+Warning:  Ports "VGND" and "uo_out[2]" are electrically shorted.
+Warning:  Ports "VGND" and "uo_out[1]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_out[7]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_out[6]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_out[5]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_out[4]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_out[3]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_out[2]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_out[1]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_out[0]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_oe[7]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_oe[6]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_oe[5]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_oe[4]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_oe[3]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_oe[2]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_oe[1]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_oe[0]" are electrically shorted.
+exttosim finished.
+Port: name = clk exists, forcing drivepoint
+Location is (25638, 44952); drivepoint (25638, 44952)
+Port: name = ena exists, forcing drivepoint
+Location is (26190, 44952); drivepoint (26190, 44952)
+Port: name = rst_n exists, forcing drivepoint
+Location is (25086, 44952); drivepoint (25086, 44952)
+Port: name = ua[0] exists, forcing drivepoint
+Location is (27234, 0); drivepoint (27234, 0)
+Port: name = ua[1] exists, forcing drivepoint
+Location is (23370, 0); drivepoint (23370, 0)
+Port: name = ua[2] exists, forcing drivepoint
+Location is (19506, 0); drivepoint (19506, 0)
+Port: name = ua[3] exists, forcing drivepoint
+Location is (15642, 0); drivepoint (15642, 0)
+Port: name = ua[4] exists, forcing drivepoint
+Location is (11778, 0); drivepoint (11778, 0)
+Port: name = ua[5] exists, forcing drivepoint
+Location is (7914, 0); drivepoint (7914, 0)
+Port: name = ua[6] exists, forcing drivepoint
+Location is (4050, 0); drivepoint (4050, 0)
+Port: name = ua[7] exists, forcing drivepoint
+Location is (186, 0); drivepoint (186, 0)
+Port: name = ui_in[0] exists, forcing drivepoint
+Location is (24534, 44952); drivepoint (24534, 44952)
+Port: name = ui_in[1] exists, forcing drivepoint
+Location is (23982, 44952); drivepoint (23982, 44952)
+Port: name = ui_in[2] exists, forcing drivepoint
+Location is (23430, 44952); drivepoint (23430, 44952)
+Port: name = ui_in[3] exists, forcing drivepoint
+Location is (22878, 44952); drivepoint (22878, 44952)
+Port: name = ui_in[4] exists, forcing drivepoint
+Location is (22326, 44952); drivepoint (22326, 44952)
+Port: name = ui_in[5] exists, forcing drivepoint
+Location is (21774, 44952); drivepoint (21774, 44952)
+Port: name = ui_in[6] exists, forcing drivepoint
+Location is (21222, 44952); drivepoint (21222, 44952)
+Port: name = ui_in[7] exists, forcing drivepoint
+Location is (20670, 44952); drivepoint (20670, 44952)
+Port: name = uio_in[0] exists, forcing drivepoint
+Location is (20118, 44952); drivepoint (20118, 44952)
+Port: name = uio_in[1] exists, forcing drivepoint
+Location is (19566, 44952); drivepoint (19566, 44952)
+Port: name = uio_in[2] exists, forcing drivepoint
+Location is (19014, 44952); drivepoint (19014, 44952)
+Port: name = uio_in[3] exists, forcing drivepoint
+Location is (18462, 44952); drivepoint (18462, 44952)
+Port: name = uio_in[4] exists, forcing drivepoint
+Location is (17910, 44952); drivepoint (17910, 44952)
+Port: name = uio_in[5] exists, forcing drivepoint
+Location is (17358, 44952); drivepoint (17358, 44952)
+Port: name = uio_in[6] exists, forcing drivepoint
+Location is (16806, 44952); drivepoint (16806, 44952)
+Port: name = uio_in[7] exists, forcing drivepoint
+Location is (16254, 44952); drivepoint (16254, 44952)
+Port: name = uio_oe[0] is new node 0x5573d4782380
+Location is (6870, 44952); drivepoint (6870, 44952)
+Port: name = uio_oe[1] is new node 0x5573d4345320
+Location is (6318, 44952); drivepoint (6318, 44952)
+Port: name = uio_oe[2] is new node 0x5573d368f340
+Location is (5766, 44952); drivepoint (5766, 44952)
+Port: name = uio_oe[3] is new node 0x5573d35da880
+Location is (5214, 44952); drivepoint (5214, 44952)
+Port: name = uio_oe[4] is new node 0x5573d368f180
+Location is (4662, 44952); drivepoint (4662, 44952)
+Port: name = uio_oe[5] is new node 0x5573d35da500
+Location is (4110, 44952); drivepoint (4110, 44952)
+Port: name = uio_oe[6] is new node 0x5573d4781ba0
+Location is (3558, 44952); drivepoint (3558, 44952)
+Port: name = uio_oe[7] is new node 0x5573d46ed5f0
+Location is (3006, 44952); drivepoint (3006, 44952)
+Port: name = uio_out[0] is new node 0x5573d37aedc0
+Location is (11286, 44952); drivepoint (11286, 44952)
+Port: name = uio_out[1] is new node 0x5573d3846e80
+Location is (10734, 44952); drivepoint (10734, 44952)
+Port: name = uio_out[2] is new node 0x5573d37aeb20
+Location is (10182, 44952); drivepoint (10182, 44952)
+Port: name = uio_out[3] is new node 0x5573d3846240
+Location is (9630, 44952); drivepoint (9630, 44952)
+Port: name = uio_out[4] is new node 0x5573d368df90
+Location is (9078, 44952); drivepoint (9078, 44952)
+Port: name = uio_out[5] is new node 0x5573d3e89cf0
+Location is (8526, 44952); drivepoint (8526, 44952)
+Port: name = uio_out[6] is new node 0x5573d3f122b0
+Location is (7974, 44952); drivepoint (7974, 44952)
+Port: name = uio_out[7] is new node 0x5573d3e89900
+Location is (7422, 44952); drivepoint (7422, 44952)
+Port: name = uo_out[0] exists, forcing drivepoint
+Location is (15702, 44952); drivepoint (15702, 44952)
+Port: name = uo_out[1] is new node 0x5573d4d02b80
+Location is (15150, 44952); drivepoint (15150, 44952)
+Port: name = uo_out[2] is new node 0x5573d372d2b0
+Location is (14598, 44952); drivepoint (14598, 44952)
+Port: name = uo_out[3] is new node 0x5573d3561d40
+Location is (14046, 44952); drivepoint (14046, 44952)
+Port: name = uo_out[4] is new node 0x5573d368dac0
+Location is (13494, 44952); drivepoint (13494, 44952)
+Port: name = uo_out[5] is new node 0x5573d42a54f0
+Location is (12942, 44952); drivepoint (12942, 44952)
+Port: name = uo_out[6] is new node 0x5573d3c8d770
+Location is (12390, 44952); drivepoint (12390, 44952)
+Port: name = uo_out[7] is new node 0x5573d47430a0
+Location is (11838, 44952); drivepoint (11838, 44952)
+Port: name = VDPWR exists, forcing drivepoint
+Location is (200, 1000); drivepoint (200, 1000)
+Port: name = VGND exists, forcing drivepoint
+Location is (800, 1000); drivepoint (800, 1000)
+Port: name = VAPWR exists, forcing drivepoint
+Location is (1800, 1000); drivepoint (1800, 1000)
+Adding  VDPWR; Tnew = 0.02ns, Told = 0.00ns
+Adding  a_9225_23623#; Tnew = 0.72ns, Told = 0.00ns
+Adding  a_8825_23526#; Tnew = 4.25ns, Told = 0.00ns
+Adding  a_9555_19880#; Tnew = 0.25ns, Told = 0.00ns
+Adding  ua[0]; Tnew = 0.26ns, Told = 0.00ns
+Adding  a_12303_18714#; Tnew = 0.13ns, Told = 0.00ns
+Adding  a_8249_23526#; Tnew = 4.35ns, Told = 0.00ns
+Adding  a_8697_16756#; Tnew = 4.24ns, Told = 0.00ns
+Adding  a_12303_16782#; Tnew = 0.46ns, Told = 0.00ns
+Adding  a_16801_16782#; Tnew = 0.55ns, Told = 0.00ns
+Adding  a_15885_16782#; Tnew = 0.93ns, Told = 0.00ns
+Adding  a_12303_15620#; Tnew = 0.47ns, Told = 0.00ns
+Adding  a_9555_15620#; Tnew = 0.46ns, Told = 0.00ns
+Adding  VAPWR; Tnew = 2.54ns, Told = 0.00ns
+Adding  a_9097_18714#; Tnew = 0.14ns, Told = 0.00ns
+Adding  a_9155_15594#; Tnew = 0.26ns, Told = 0.00ns
+Adding  a_9155_19783#; Tnew = 0.49ns, Told = 0.00ns
+Adding  ua[1]; Tnew = 0.25ns, Told = 0.00ns
+Total Nets: 98
+Nets extracted: 56 (0.571429)
+Nets output: 56 (0.571429)
+exttospice finished.
+RC_PEX_COMPLETE

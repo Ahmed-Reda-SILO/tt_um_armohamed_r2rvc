@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "VINP_to_ua[0]": true,
+    "VINM_to_ua[1]": true,
+    "VOUT_to_uo_out[0]": true,
+    "VDD_to_VAPWR": true,
+    "DVDD_to_VDPWR": true,
+    "VSS_to_VGND": true,
+    "DVSS_to_VGND": true,
+    "unused_digital_outputs_grounded": true,
+    "functional_nets_not_shorted": true,
+    "original_core_geometry_preserved": true
+  },
+  "all_pass": true
+}

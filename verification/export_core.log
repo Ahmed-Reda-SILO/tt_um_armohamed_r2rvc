@@ -1,0 +1,28 @@
+
+Magic 8.3 revision 568 - Compiled on Wed Nov 18 18:55:00 +03 2026.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/workspace/scratch/21dd87018530/tt_submission/tools/export_core.tcl" from command line.
+Cell EF_R2RVC read from current working directory
+Cell arm_r2rvc_lsbufhv2lv read from current working directory
+Cell comparator_bias read from current working directory
+Cell comparator read from current working directory
+comparator: 10000 rects
+Processing timestamp mismatches.
+Timestamp mismatches found in these cells: arm_r2rvc_lsbufhv2lv.
+DRC style is now "drc(full)"
+Loading DRC CIF style.
+No errors found.
+CORE_NATIVE_DRC_BOX_COUNT=0
+   Generating output for cell arm_r2rvc_lsbufhv2lv
+   Generating output for cell comparator_bias
+   Generating output for cell comparator
+   Generating output for cell EF_R2RVC

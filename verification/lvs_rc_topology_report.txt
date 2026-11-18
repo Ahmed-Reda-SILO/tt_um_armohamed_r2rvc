@@ -1,0 +1,187 @@
+Flattening unmatched subcell comparator in circuit EF_R2RVC (1)(1 instance)
+Flattening unmatched subcell comparator_bias in circuit EF_R2RVC (1)(1 instance)
+Flattening unmatched subcell arm_r2rvc_lsbufhv2lv in circuit EF_R2RVC (1)(1 instance)
+Flattening unmatched subcell EF_R2RVC in circuit tt_um_armohamed_r2rvc (1)(1 instance)
+
+Cell tt_um_armohamed_r2rvc_rc disconnected node: clk
+Cell tt_um_armohamed_r2rvc_rc disconnected node: ena
+Cell tt_um_armohamed_r2rvc_rc disconnected node: rst_n
+Cell tt_um_armohamed_r2rvc_rc disconnected node: ua[2]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: ua[3]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: ua[4]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: ua[5]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: ua[6]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: ua[7]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: ui_in[0]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: ui_in[1]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: ui_in[2]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: ui_in[3]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: ui_in[4]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: ui_in[5]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: ui_in[6]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: ui_in[7]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: uio_in[0]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: uio_in[1]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: uio_in[2]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: uio_in[3]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: uio_in[4]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: uio_in[5]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: uio_in[6]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: uio_in[7]
+
+Cell tt_um_armohamed_r2rvc disconnected node: clk
+Cell tt_um_armohamed_r2rvc disconnected node: ena
+Cell tt_um_armohamed_r2rvc disconnected node: rst_n
+Cell tt_um_armohamed_r2rvc disconnected node: ua[2]
+Cell tt_um_armohamed_r2rvc disconnected node: ua[3]
+Cell tt_um_armohamed_r2rvc disconnected node: ua[4]
+Cell tt_um_armohamed_r2rvc disconnected node: ua[5]
+Cell tt_um_armohamed_r2rvc disconnected node: ua[6]
+Cell tt_um_armohamed_r2rvc disconnected node: ua[7]
+Cell tt_um_armohamed_r2rvc disconnected node: ui_in[0]
+Cell tt_um_armohamed_r2rvc disconnected node: ui_in[1]
+Cell tt_um_armohamed_r2rvc disconnected node: ui_in[2]
+Cell tt_um_armohamed_r2rvc disconnected node: ui_in[3]
+Cell tt_um_armohamed_r2rvc disconnected node: ui_in[4]
+Cell tt_um_armohamed_r2rvc disconnected node: ui_in[5]
+Cell tt_um_armohamed_r2rvc disconnected node: ui_in[6]
+Cell tt_um_armohamed_r2rvc disconnected node: ui_in[7]
+Cell tt_um_armohamed_r2rvc disconnected node: uio_in[0]
+Cell tt_um_armohamed_r2rvc disconnected node: uio_in[1]
+Cell tt_um_armohamed_r2rvc disconnected node: uio_in[2]
+Cell tt_um_armohamed_r2rvc disconnected node: uio_in[3]
+Cell tt_um_armohamed_r2rvc disconnected node: uio_in[4]
+Cell tt_um_armohamed_r2rvc disconnected node: uio_in[5]
+Cell tt_um_armohamed_r2rvc disconnected node: uio_in[6]
+Cell tt_um_armohamed_r2rvc disconnected node: uio_in[7]
+Class tt_um_armohamed_r2rvc_rc:  Merged 54 devices.
+Class tt_um_armohamed_r2rvc:  Merged 6 devices.
+
+Cell tt_um_armohamed_r2rvc_rc disconnected node: clk
+Cell tt_um_armohamed_r2rvc_rc disconnected node: ena
+Cell tt_um_armohamed_r2rvc_rc disconnected node: rst_n
+Cell tt_um_armohamed_r2rvc_rc disconnected node: ua[2]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: ua[3]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: ua[4]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: ua[5]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: ua[6]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: ua[7]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: ui_in[0]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: ui_in[1]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: ui_in[2]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: ui_in[3]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: ui_in[4]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: ui_in[5]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: ui_in[6]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: ui_in[7]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: uio_in[0]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: uio_in[1]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: uio_in[2]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: uio_in[3]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: uio_in[4]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: uio_in[5]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: uio_in[6]
+Cell tt_um_armohamed_r2rvc_rc disconnected node: uio_in[7]
+
+Cell tt_um_armohamed_r2rvc disconnected node: clk
+Cell tt_um_armohamed_r2rvc disconnected node: ena
+Cell tt_um_armohamed_r2rvc disconnected node: rst_n
+Cell tt_um_armohamed_r2rvc disconnected node: ua[2]
+Cell tt_um_armohamed_r2rvc disconnected node: ua[3]
+Cell tt_um_armohamed_r2rvc disconnected node: ua[4]
+Cell tt_um_armohamed_r2rvc disconnected node: ua[5]
+Cell tt_um_armohamed_r2rvc disconnected node: ua[6]
+Cell tt_um_armohamed_r2rvc disconnected node: ua[7]
+Cell tt_um_armohamed_r2rvc disconnected node: ui_in[0]
+Cell tt_um_armohamed_r2rvc disconnected node: ui_in[1]
+Cell tt_um_armohamed_r2rvc disconnected node: ui_in[2]
+Cell tt_um_armohamed_r2rvc disconnected node: ui_in[3]
+Cell tt_um_armohamed_r2rvc disconnected node: ui_in[4]
+Cell tt_um_armohamed_r2rvc disconnected node: ui_in[5]
+Cell tt_um_armohamed_r2rvc disconnected node: ui_in[6]
+Cell tt_um_armohamed_r2rvc disconnected node: ui_in[7]
+Cell tt_um_armohamed_r2rvc disconnected node: uio_in[0]
+Cell tt_um_armohamed_r2rvc disconnected node: uio_in[1]
+Cell tt_um_armohamed_r2rvc disconnected node: uio_in[2]
+Cell tt_um_armohamed_r2rvc disconnected node: uio_in[3]
+Cell tt_um_armohamed_r2rvc disconnected node: uio_in[4]
+Cell tt_um_armohamed_r2rvc disconnected node: uio_in[5]
+Cell tt_um_armohamed_r2rvc disconnected node: uio_in[6]
+Cell tt_um_armohamed_r2rvc disconnected node: uio_in[7]
+
+Subcircuit summary:
+Circuit 1: tt_um_armohamed_r2rvc_rc        |Circuit 2: tt_um_armohamed_r2rvc           
+-------------------------------------------|-------------------------------------------
+r (23)                                     |r (23)                                     
+sky130_fd_pr__nfet_g5v0d10v5 (23)          |sky130_fd_pr__nfet_g5v0d10v5 (23)          
+sky130_fd_pr__pfet_g5v0d10v5 (19)          |sky130_fd_pr__pfet_g5v0d10v5 (19)          
+sky130_fd_pr__res_high_po_1p41 (1)         |sky130_fd_pr__res_high_po_1p41 (1)         
+sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
+sky130_fd_pr__pfet_01v8_hvt (3)            |sky130_fd_pr__pfet_01v8_hvt (3)            
+Number of devices: 70                      |Number of devices: 70                      
+Number of nets: 48                         |Number of nets: 48                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+Circuits match correctly.
+
+Subcircuit pins:
+Circuit 1: tt_um_armohamed_r2rvc_rc        |Circuit 2: tt_um_armohamed_r2rvc           
+-------------------------------------------|-------------------------------------------
+VDPWR                                      |VDPWR                                      
+VAPWR                                      |VAPWR                                      
+ua[0]                                      |ua[0]                                      
+ua[1]                                      |ua[1]                                      
+uo_out[0]                                  |uo_out[0]                                  
+VGND                                       |VGND                                       
+uo_out[1]                                  |uo_out[1]                                  
+uo_out[2]                                  |uo_out[2]                                  
+uo_out[3]                                  |uo_out[3]                                  
+uo_out[4]                                  |uo_out[4]                                  
+uo_out[5]                                  |uo_out[5]                                  
+uo_out[6]                                  |uo_out[6]                                  
+uo_out[7]                                  |uo_out[7]                                  
+uio_out[0]                                 |uio_out[0]                                 
+uio_out[1]                                 |uio_out[1]                                 
+uio_out[2]                                 |uio_out[2]                                 
+uio_out[3]                                 |uio_out[3]                                 
+uio_out[4]                                 |uio_out[4]                                 
+uio_out[5]                                 |uio_out[5]                                 
+uio_out[6]                                 |uio_out[6]                                 
+uio_out[7]                                 |uio_out[7]                                 
+uio_oe[0]                                  |uio_oe[0]                                  
+uio_oe[1]                                  |uio_oe[1]                                  
+uio_oe[2]                                  |uio_oe[2]                                  
+uio_oe[3]                                  |uio_oe[3]                                  
+uio_oe[4]                                  |uio_oe[4]                                  
+uio_oe[5]                                  |uio_oe[5]                                  
+uio_oe[6]                                  |uio_oe[6]                                  
+uio_oe[7]                                  |uio_oe[7]                                  
+clk                                        |clk                                        
+ena                                        |ena                                        
+rst_n                                      |rst_n                                      
+ua[2]                                      |ua[2]                                      
+ua[3]                                      |ua[3]                                      
+ua[4]                                      |ua[4]                                      
+ua[5]                                      |ua[5]                                      
+ua[6]                                      |ua[6]                                      
+ua[7]                                      |ua[7]                                      
+ui_in[0]                                   |ui_in[0]                                   
+ui_in[1]                                   |ui_in[1]                                   
+ui_in[2]                                   |ui_in[2]                                   
+ui_in[3]                                   |ui_in[3]                                   
+ui_in[4]                                   |ui_in[4]                                   
+ui_in[5]                                   |ui_in[5]                                   
+ui_in[6]                                   |ui_in[6]                                   
+ui_in[7]                                   |ui_in[7]                                   
+uio_in[0]                                  |uio_in[0]                                  
+uio_in[1]                                  |uio_in[1]                                  
+uio_in[2]                                  |uio_in[2]                                  
+uio_in[3]                                  |uio_in[3]                                  
+uio_in[4]                                  |uio_in[4]                                  
+uio_in[5]                                  |uio_in[5]                                  
+uio_in[6]                                  |uio_in[6]                                  
+uio_in[7]                                  |uio_in[7]                                  
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes tt_um_armohamed_r2rvc_rc and tt_um_armohamed_r2rvc are equivalent.
+Circuits match uniquely.

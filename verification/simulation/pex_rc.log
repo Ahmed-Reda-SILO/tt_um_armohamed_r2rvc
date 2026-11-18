@@ -1,0 +1,61 @@
+Warning: m=xx on .subckt line will override multiplier m hierarchy!
+
+Warning: Value of resistor r.xu.r0a is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r0b is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r1a is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r1b is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r2a is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r2b is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r3a is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r3b is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r4a is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r4b is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r5a is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r5b is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r6a is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r6b is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r7a is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r7b is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r8a is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r8b is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r9a is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r9b is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r10a is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r10b is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r11a is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r11b is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r12a is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r12b is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r13a is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r13b is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r14a is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r14b is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r15a is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r15b is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r16a is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r16b is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r17a is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r17b is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r18a is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r18b is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r19a is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r19b is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r20a is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r20b is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r21a is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r21b is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r22a is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r22b is too small, set to 1.000000e-12
+
+Note: Compatibility modes selected: hs a
+
+
+Circuit: nominal tt pex_rc, 27c, 3.3v/1.8v, 1pf load
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using KLU as Direct Linear Solver
+ Reference value :  0.00000e+00 Reference value :  2.00240e-08 Reference value :  4.60240e-08 Reference value :  8.10240e-08 Reference value :  1.06024e-07 Reference value :  1.39024e-07 Reference value :  1.76024e-07 Reference value :  2.17024e-07 Reference value :  2.59024e-07 Reference value :  2.95024e-07 Reference value :  3.35024e-07 Reference value :  3.68024e-07 Reference value :  4.04024e-07 Reference value :  4.40024e-07 Reference value :  4.70024e-07 Reference value :  5.01390e-07 Reference value :  5.09090e-07 Reference value :  5.09717e-07 Reference value :  5.23232e-07 Reference value :  5.49232e-07 Reference value :  5.76232e-07 Reference value :  6.04232e-07 Reference value :  6.33232e-07 Reference value :  6.69232e-07 Reference value :  7.09232e-07 Reference value :  7.49232e-07 Reference value :  7.88232e-07 Reference value :  8.28232e-07 Reference value :  8.69232e-07 Reference value :  9.08232e-07 Reference value :  9.48232e-07 Reference value :  9.81232e-07 Reference value :  1.00507e-06 Reference value :  1.00975e-06 Reference value :  1.01057e-06 Reference value :  1.02213e-06 Reference value :  1.05145e-06 Reference value :  1.08045e-06 Reference value :  1.11045e-06 Reference value :  1.13945e-06 Reference value :  1.16945e-06 Reference value :  1.19945e-06 Reference value :  1.22945e-06 Reference value :  1.25945e-06 Reference value :  1.28945e-06 Reference value :  1.31645e-06 Reference value :  1.34245e-06 Reference value :  1.37045e-06 Reference value :  1.39945e-06 Reference value :  1.42745e-06 Reference value :  1.45645e-06 Reference value :  1.48345e-06 Reference value :  1.50095e-06 Reference value :  1.50755e-06 Reference value :  1.50943e-06 Reference value :  1.51158e-06 Reference value :  1.53645e-06 Reference value :  1.56445e-06 Reference value :  1.59145e-06 Reference value :  1.61945e-06 Reference value :  1.64845e-06 Reference value :  1.66845e-06 Reference value :  1.69345e-06 Reference value :  1.72245e-06 Reference value :  1.75045e-06 Reference value :  1.77845e-06 Reference value :  1.80645e-06 Reference value :  1.83545e-06 Reference value :  1.86545e-06 Reference value :  1.89445e-06 Reference value :  1.93445e-06 Reference value :  1.97145e-06 Reference value :  2.00045e-06 Reference value :  2.00638e-06 Reference value :  2.00977e-06 Reference value :  2.01036e-06 Reference value :  2.01818e-06 Reference value :  2.04045e-06 Reference value :  2.06645e-06 Reference value :  2.09345e-06 Reference value :  2.11745e-06 Reference value :  2.14345e-06 Reference value :  2.17245e-06 Reference value :  2.20545e-06 Reference value :  2.24245e-06 Reference value :  2.28145e-06 Reference value :  2.32245e-06 Reference value :  2.36645e-06 Reference value :  2.40045e-06 Reference value :  2.44145e-06 Reference value :  2.48345e-06 Reference value :  2.50496e-06 Reference value :  2.50921e-06 Reference value :  2.50984e-06 Reference value :  2.53002e-06 Reference value :  2.56202e-06 Reference value :  2.59002e-06 Reference value :  2.61602e-06 Reference value :  2.64002e-06 Reference value :  2.66702e-06 Reference value :  2.68902e-06 Reference value :  2.71302e-06 Reference value :  2.75102e-06 Reference value :  2.78602e-06 Reference value :  2.82202e-06 Reference value :  2.85802e-06 Reference value :  2.87702e-06 Reference value :  2.90202e-06 Reference value :  2.93202e-06 Reference value :  2.95902e-06 Reference value :  2.99002e-06
+No. of Data Rows : 3241
+ngspice-44.2 done

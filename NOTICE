@@ -1,0 +1,10 @@
+EF_R2RVC comparator sources were supplied by Ahmed Reda Mohamed for this project.
+The local level-shifter layout derives from the SKY130
+sky130_fd_sc_hvl__lsbufhv2lv_1 cell, distributed under Apache-2.0 by the
+SkyWater PDK Authors. Its geometry is modified and it is named
+arm_r2rvc_lsbufhv2lv to distinguish it from the standard PDK cell.
+
+Tiny Tapeout analog submission template: Copyright 2024 Tiny Tapeout LTD.
+The retained LICENSE contains the Apache License, Version 2.0.
+
+Wrapper integration and preparation scripts: 2026 Ahmed Reda Mohamed.
