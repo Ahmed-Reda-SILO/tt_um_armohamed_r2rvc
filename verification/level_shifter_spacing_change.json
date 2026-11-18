@@ -1,0 +1,12 @@
+{
+  "change": "0.4um horizontal separation added at local x=3.53um",
+  "source_cell": "sky130_fd_sc_hvl__lsbufhv2lv_1",
+  "custom_cell": "arm_r2rvc_lsbufhv2lv",
+  "source_mag_sha256": "90e745e4d315297687c1023484114e755b4cc1aba661dbd0b4152958640f3e2c",
+  "custom_mag_sha256": "64528be81d9ebac413b71dd7ca39e34122544536f31993f8c118a137e397daac",
+  "MOS_channel_geometry": "L and W retained; checked independently by LVS",
+  "purpose": "Pass raw full DRC without inferred-HVI mask restoration or a rule waiver",
+  "parent_cell_adjustments": "Instance shifted down 0.4um; input landing follows it; met2 enclosure restored",
+  "moved_input_landing_rectangles": 28,
+  "LVS_MOS_geometry_verified": true
+}

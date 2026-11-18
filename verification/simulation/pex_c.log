@@ -1,0 +1,58 @@
+Warning: m=xx on .subckt line will override multiplier m hierarchy!
+
+Warning: Value of resistor r.xu.r0 is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r1 is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r2 is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r3 is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r4 is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r5 is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r6 is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r7 is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r8 is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r9 is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r10 is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r11 is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r12 is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r13 is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r14 is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r15 is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r16 is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r17 is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r18 is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r19 is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r20 is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r21 is too small, set to 1.000000e-12
+Warning: Value of resistor r.xu.r22 is too small, set to 1.000000e-12
+Warning: singular matrix:  check node xu.ef_r2rvc_0/comparator_0/a_508972_641405#
+
+Note: Starting dynamic gmin stepping
+Warning: Dynamic gmin stepping failed
+Note: Starting true gmin stepping
+Warning: singular matrix:  check node xu.ef_r2rvc_0/comparator_0/a_508972_641405#
+
+Warning: singular matrix:  check node xu.ef_r2rvc_0/comparator_0/a_508972_641405#
+
+Warning: singular matrix:  check node xu.ef_r2rvc_0/comparator_0/a_508972_641405#
+
+Warning: singular matrix:  check node xu.ef_r2rvc_0/comparator_0/a_508972_641405#
+
+Warning: singular matrix:  check node xu.ef_r2rvc_0/comparator_0/a_508972_641405#
+
+Warning: True gmin stepping failed
+Note: Starting source stepping
+Warning: source stepping failed
+Note: Transient op started
+Note: Transient op finished successfully
+
+Note: Compatibility modes selected: hs a
+
+
+Circuit: nominal tt pex_c, 27c, 3.3v/1.8v, 1pf load
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using KLU as Direct Linear Solver
+ Reference value :  0.00000e+00 Reference value :  2.37024e-07 Reference value :  4.63024e-07 Reference value :  6.21642e-07 Reference value :  8.79642e-07 Reference value :  1.03913e-06 Reference value :  1.32913e-06 Reference value :  1.51443e-06 Reference value :  1.75964e-06 Reference value :  2.00860e-06 Reference value :  2.16513e-06 Reference value :  2.37113e-06 Reference value :  2.51195e-06 Reference value :  2.75064e-06
+No. of Data Rows : 3230
+ngspice-44.2 done

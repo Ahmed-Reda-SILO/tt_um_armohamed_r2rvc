@@ -1,0 +1,19 @@
+{
+  "support_tools_commit": "8f7b5060d7f6df73bfd2e0b8d8fa0fd1dca0a0b1",
+  "PDK": "sky130A",
+  "PDK_revision": "0536d02d875c8f67dd7cca3902ac457e62f20005",
+  "magic": "8.3.568",
+  "netgen": "1.5.133",
+  "klayout_executable": "0.30.0",
+  "klayout_python": "0.30.13",
+  "ngspice": "44.2",
+  "precheck_modifications": false,
+  "HVI_restoration_applied": false,
+  "rule_waivers": false,
+  "precheck_files_sha256": {
+    "precheck.py": "099e43d90af79d91d132be6eb06b1bc38ebaacf7f2f2e0a0d57a72d8e7c5dd7b",
+    "magic_drc.tcl": "00a24f87644296c58afbb9866be0fbd509c5ed90a0c1c93f02358203179a45a0",
+    "pin_check.py": "890647b9b8a3fe861004c91450ac343e4ce4d9938df8d3de394220c0ff3449ce",
+    "tech_data.py": "cc3e86c1ff3e13de2335ca7554ba0b961ef039bdaff8a634e96522481b164734"
+  }
+}

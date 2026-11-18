@@ -1,36 +1,73 @@
-![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg)
+# SKY130 rail-to-rail voltage comparator
 
-# Tiny Tapeout Analog Project Template
+Tiny Tapeout SKY130A analog/custom-GDS submission for `tt_um_armohamed_r2rvc`.
+The project integrates the corrected EF_R2RVC comparator into the official
+1x2, 3.3 V template. It uses two analog inputs and one digital output.
 
-- [Read the documentation for project](docs/info.md)
+| Setting | Value |
+|---|---|
+| Process | SKY130A |
+| Template | `tt_analog_1x2_3v3.def` |
+| Wrapper size | 145.360 × 225.760 µm |
+| Analog pins | ua[0] = VINP; ua[1] = VINM |
+| Digital output | uo_out[0] = comparator output |
+| Supplies | VAPWR = 3.3 V; VDPWR = 1.8 V; VGND = common ground |
+| Metadata | `analog_pins: 2`; `uses_vapwr: true`; `tiles: "1x2"` |
 
-## What is Tiny Tapeout?
+The final local revision passes all 15 checks in the unmodified Tiny Tapeout
+precheck, plus raw Magic full DRC, hierarchical LVS, flattened LVS, and a
+separate RC-netlist topology check. Nominal schematic and wrapper C/RC PEX
+simulations produce the expected logic output. See
+[VERIFICATION_REPORT.md](VERIFICATION_REPORT.md) for results and scope.
 
-Tiny Tapeout is an educational project that aims to make it easier and cheaper than ever to get your digital designs manufactured on a real chip.
+The wrapper also contains a 0.4 µm spacing adjustment in a custom-named level
+shifter cell. All MOS W/L values are retained. The revised exported GDS passes
+raw full DRC without HVI mask restoration, a modified deck, or a waiver.
 
-To learn more and get started, visit https://tinytapeout.com.
+## Main files
 
-## Analog projects
+- `gds/tt_um_armohamed_r2rvc.gds`: physical submission.
+- `lef/tt_um_armohamed_r2rvc.lef`: matching pin-only abstract.
+- `src/project.v`: physical black-box interface.
+- `info.yaml`: submission metadata and datasheet pinout.
+- `docs/info.md`: operating and test instructions.
+- `ip/EF_R2RVC/`: corrected source schematic, editable layout cells, and core GDS.
+- `tools/`: rebuild, extraction, LVS, connectivity, and simulation scripts.
+- `verification/`: local reports, provenance, and nominal comparison plot.
+- `spice/`: extracted and golden wrapper netlists.
 
-For specifications and instructions, see the [analog specs page](https://tinytapeout.com/specs/analog/).
+## Reproduce locally
 
-## Enable GitHub actions to build the results page
+Install Magic, Netgen, KLayout, ngspice, and the matching SKY130A PDK, then:
 
-- [Enabling GitHub Pages](https://tinytapeout.com/faq/#my-github-action-is-failing-on-the-pages-part)
+```bash
+python3 -m pip install -r requirements.txt
+export PDK_ROOT=/path/to/the/directory/containing/sky130A
+python3 tools/rebuild.py --pdk-root "$PDK_ROOT" --tt-support-tools /path/to/tt-support-tools
+```
 
-## Resources
+The recorded PDK is Open_PDKs
+`0536d02d875c8f67dd7cca3902ac457e62f20005`. The provider precheck source is
+`TinyTapeout/tt-support-tools` commit
+`8f7b5060d7f6df73bfd2e0b8d8fa0fd1dca0a0b1`. See
+`verification/tool_versions.json` for local tool versions.
 
-- [FAQ](https://tinytapeout.com/faq/)
-- [Digital design lessons](https://tinytapeout.com/digital_design/)
-- [Learn how semiconductors work](https://tinytapeout.com/siliwiz/)
-- [Join the community](https://tinytapeout.com/discord)
+For a headless Netgen installation, pass `--netgen-tcl /path/to/netgen.tcl`.
+Add `--no-sim` to omit transient simulations. The spacing conversion script
+records the one-time conversion from the previous core; the checked-in
+editable layout already includes that conversion.
 
-## What next?
+## GitHub and submission
 
-- [Submit your design to the next shuttle](https://app.tinytapeout.com/).
-- Edit [this README](README.md) and explain your design, how it works, and how to test it.
-- Share your project on your social network of choice:
-  - LinkedIn [#tinytapeout](https://www.linkedin.com/search/results/content/?keywords=%23tinytapeout) [@TinyTapeout](https://www.linkedin.com/company/100708654/)
-  - Mastodon [#tinytapeout](https://chaos.social/tags/tinytapeout) [@matthewvenn](https://chaos.social/@matthewvenn)
-  - X (formerly Twitter) [#tinytapeout](https://twitter.com/hashtag/tinytapeout) [@tinytapeout](https://twitter.com/tinytapeout)
-  - Bluesky [@tinytapeout.com](https://bsky.app/profile/tinytapeout.com)
+The official `gds` workflow packages the GDS, LEF, Verilog, and project
+metadata and runs Tiny Tapeout's hosted precheck. Review its result for the
+exact commit being submitted. The viewer deploys from `main`.
+
+After the submission revision is on `main` and its hosted checks pass, import
+this repository at https://app.tinytapeout.com/projects/create and select the
+SKY130 shuttle, 1x2 area, two analog pins, and 3.3 V analog supply support.
+Confirm allocation and price in the app before placing the order. No shuttle
+registration or payment is performed by these repository files.
+
+The local simulations are nominal TT checks, not PVT/Monte Carlo or complete
+shuttle signoff. Final acceptance belongs to Tiny Tapeout's hosted flow.

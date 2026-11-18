@@ -9,3 +9,19 @@ test/sim_build
 test/__pycache__/
 test/results.xml
 test/gate_level_netlist.v
+
+
+# Regenerated local files
+__pycache__/
+*.ext
+*.sim
+*.nodes
+*.al
+verification/extraction/
+verification/rc/
+verification/simulation/*.dat
+verification/simulation/*_circuit.spice
+verification/simulation/.spiceinit
+
+gds/*.v
+verification/simulation/*.spice

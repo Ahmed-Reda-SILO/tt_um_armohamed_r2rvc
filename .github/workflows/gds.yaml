@@ -35,6 +35,7 @@ jobs:
         uses: TinyTapeout/tt-gds-action/precheck@ttsky26d
 
   viewer:
+    if: github.ref == 'refs/heads/main'
     needs: gds
     runs-on: ubuntu-24.04
     permissions:
@@ -42,3 +43,4 @@ jobs:
       id-token: write   # to verify the deployment originates from an appropriate source
     steps:
       - uses: TinyTapeout/tt-gds-action/viewer@ttsky26d
+

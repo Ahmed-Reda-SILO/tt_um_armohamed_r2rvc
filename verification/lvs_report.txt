@@ -1,0 +1,230 @@
+Class arm_r2rvc_lsbufhv2lv:  Merged 6 devices.
+Class arm_r2rvc_lsbufhv2lv:  Merged 6 devices.
+
+Subcircuit summary:
+Circuit 1: arm_r2rvc_lsbufhv2lv            |Circuit 2: arm_r2rvc_lsbufhv2lv            
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_g5v0d10v5 (2)           |sky130_fd_pr__pfet_g5v0d10v5 (2)           
+sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
+sky130_fd_pr__nfet_g5v0d10v5 (4)           |sky130_fd_pr__nfet_g5v0d10v5 (4)           
+sky130_fd_pr__pfet_01v8_hvt (3)            |sky130_fd_pr__pfet_01v8_hvt (3)            
+Number of devices: 10                      |Number of devices: 10                      
+Number of nets: 11                         |Number of nets: 11                         
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: arm_r2rvc_lsbufhv2lv            |Circuit 2: arm_r2rvc_lsbufhv2lv            
+-------------------------------------------|-------------------------------------------
+LVPWR                                      |LVPWR                                      
+VPWR                                       |VPWR                                       
+VPB                                        |VPB                                        
+X                                          |X                                          
+A                                          |A                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes arm_r2rvc_lsbufhv2lv and arm_r2rvc_lsbufhv2lv are equivalent.
+Class comparator_bias:  Merged 6 devices.
+
+Subcircuit summary:
+Circuit 1: comparator_bias                 |Circuit 2: comparator_bias                 
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__res_high_po_1p41 (1)         |sky130_fd_pr__res_high_po_1p41 (1)         
+sky130_fd_pr__nfet_g5v0d10v5 (6)           |sky130_fd_pr__nfet_g5v0d10v5 (6)           
+sky130_fd_pr__pfet_g5v0d10v5 (4)           |sky130_fd_pr__pfet_g5v0d10v5 (4)           
+Number of devices: 11                      |Number of devices: 11                      
+Number of nets: 6                          |Number of nets: 6                          
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: comparator_bias                 |Circuit 2: comparator_bias                 
+-------------------------------------------|-------------------------------------------
+VBP                                        |VBP                                        
+VSS                                        |VSS                                        
+VDD                                        |VDD                                        
+VBN                                        |VBN                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes comparator_bias and comparator_bias are equivalent.
+Class comparator:  Merged 42 devices.
+
+Subcircuit summary:
+Circuit 1: comparator                      |Circuit 2: comparator                      
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_g5v0d10v5 (13)          |sky130_fd_pr__pfet_g5v0d10v5 (13)          
+sky130_fd_pr__nfet_g5v0d10v5 (13)          |sky130_fd_pr__nfet_g5v0d10v5 (13)          
+Number of devices: 26                      |Number of devices: 26                      
+Number of nets: 17                         |Number of nets: 17                         
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: comparator                      |Circuit 2: comparator                      
+-------------------------------------------|-------------------------------------------
+VBN                                        |VBN                                        
+VBP                                        |VBP                                        
+VINP                                       |VINP                                       
+VINM                                       |VINM                                       
+VOUT                                       |VOUT                                       
+VSS                                        |VSS                                        
+VDD                                        |VDD                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes comparator and comparator are equivalent.
+
+Subcircuit summary:
+Circuit 1: EF_R2RVC                        |Circuit 2: EF_R2RVC                        
+-------------------------------------------|-------------------------------------------
+arm_r2rvc_lsbufhv2lv (1)                   |arm_r2rvc_lsbufhv2lv (1)                   
+comparator_bias (1)                        |comparator_bias (1)                        
+comparator (1)                             |comparator (1)                             
+Number of devices: 3                       |Number of devices: 3                       
+Number of nets: 10                         |Number of nets: 10                         
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: EF_R2RVC                        |Circuit 2: EF_R2RVC                        
+-------------------------------------------|-------------------------------------------
+VDD                                        |VDD                                        
+VINP                                       |VINP                                       
+VINM                                       |VINM                                       
+DVDD                                       |DVDD                                       
+VOUT                                       |VOUT                                       
+VSS                                        |VSS                                        
+DVSS                                       |DVSS                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes EF_R2RVC and EF_R2RVC are equivalent.
+
+Cell tt_um_armohamed_r2rvc disconnected node: clk
+Cell tt_um_armohamed_r2rvc disconnected node: ena
+Cell tt_um_armohamed_r2rvc disconnected node: rst_n
+Cell tt_um_armohamed_r2rvc disconnected node: ua[2]
+Cell tt_um_armohamed_r2rvc disconnected node: ua[3]
+Cell tt_um_armohamed_r2rvc disconnected node: ua[4]
+Cell tt_um_armohamed_r2rvc disconnected node: ua[5]
+Cell tt_um_armohamed_r2rvc disconnected node: ua[6]
+Cell tt_um_armohamed_r2rvc disconnected node: ua[7]
+Cell tt_um_armohamed_r2rvc disconnected node: ui_in[0]
+Cell tt_um_armohamed_r2rvc disconnected node: ui_in[1]
+Cell tt_um_armohamed_r2rvc disconnected node: ui_in[2]
+Cell tt_um_armohamed_r2rvc disconnected node: ui_in[3]
+Cell tt_um_armohamed_r2rvc disconnected node: ui_in[4]
+Cell tt_um_armohamed_r2rvc disconnected node: ui_in[5]
+Cell tt_um_armohamed_r2rvc disconnected node: ui_in[6]
+Cell tt_um_armohamed_r2rvc disconnected node: ui_in[7]
+Cell tt_um_armohamed_r2rvc disconnected node: uio_in[0]
+Cell tt_um_armohamed_r2rvc disconnected node: uio_in[1]
+Cell tt_um_armohamed_r2rvc disconnected node: uio_in[2]
+Cell tt_um_armohamed_r2rvc disconnected node: uio_in[3]
+Cell tt_um_armohamed_r2rvc disconnected node: uio_in[4]
+Cell tt_um_armohamed_r2rvc disconnected node: uio_in[5]
+Cell tt_um_armohamed_r2rvc disconnected node: uio_in[6]
+Cell tt_um_armohamed_r2rvc disconnected node: uio_in[7]
+
+Cell tt_um_armohamed_r2rvc disconnected node: clk
+Cell tt_um_armohamed_r2rvc disconnected node: ena
+Cell tt_um_armohamed_r2rvc disconnected node: rst_n
+Cell tt_um_armohamed_r2rvc disconnected node: ua[2]
+Cell tt_um_armohamed_r2rvc disconnected node: ua[3]
+Cell tt_um_armohamed_r2rvc disconnected node: ua[4]
+Cell tt_um_armohamed_r2rvc disconnected node: ua[5]
+Cell tt_um_armohamed_r2rvc disconnected node: ua[6]
+Cell tt_um_armohamed_r2rvc disconnected node: ua[7]
+Cell tt_um_armohamed_r2rvc disconnected node: ui_in[0]
+Cell tt_um_armohamed_r2rvc disconnected node: ui_in[1]
+Cell tt_um_armohamed_r2rvc disconnected node: ui_in[2]
+Cell tt_um_armohamed_r2rvc disconnected node: ui_in[3]
+Cell tt_um_armohamed_r2rvc disconnected node: ui_in[4]
+Cell tt_um_armohamed_r2rvc disconnected node: ui_in[5]
+Cell tt_um_armohamed_r2rvc disconnected node: ui_in[6]
+Cell tt_um_armohamed_r2rvc disconnected node: ui_in[7]
+Cell tt_um_armohamed_r2rvc disconnected node: uio_in[0]
+Cell tt_um_armohamed_r2rvc disconnected node: uio_in[1]
+Cell tt_um_armohamed_r2rvc disconnected node: uio_in[2]
+Cell tt_um_armohamed_r2rvc disconnected node: uio_in[3]
+Cell tt_um_armohamed_r2rvc disconnected node: uio_in[4]
+Cell tt_um_armohamed_r2rvc disconnected node: uio_in[5]
+Cell tt_um_armohamed_r2rvc disconnected node: uio_in[6]
+Cell tt_um_armohamed_r2rvc disconnected node: uio_in[7]
+
+Subcircuit summary:
+Circuit 1: tt_um_armohamed_r2rvc           |Circuit 2: tt_um_armohamed_r2rvc           
+-------------------------------------------|-------------------------------------------
+EF_R2RVC (1)                               |EF_R2RVC (1)                               
+r (23)                                     |r (23)                                     
+Number of devices: 24                      |Number of devices: 24                      
+Number of nets: 29                         |Number of nets: 29                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+Circuits match correctly.
+
+Subcircuit pins:
+Circuit 1: tt_um_armohamed_r2rvc           |Circuit 2: tt_um_armohamed_r2rvc           
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VAPWR                                      |VAPWR                                      
+VDPWR                                      |VDPWR                                      
+ua[0]                                      |ua[0]                                      
+ua[1]                                      |ua[1]                                      
+uo_out[0]                                  |uo_out[0]                                  
+uo_out[4]                                  |uo_out[4]                                  
+uio_out[0]                                 |uio_out[0]                                 
+uo_out[5]                                  |uo_out[5]                                  
+uio_out[1]                                 |uio_out[1]                                 
+uio_out[2]                                 |uio_out[2]                                 
+uio_oe[0]                                  |uio_oe[0]                                  
+uo_out[6]                                  |uo_out[6]                                  
+uo_out[7]                                  |uo_out[7]                                  
+uio_out[3]                                 |uio_out[3]                                 
+uio_out[5]                                 |uio_out[5]                                 
+uio_out[4]                                 |uio_out[4]                                 
+uio_oe[2]                                  |uio_oe[2]                                  
+uio_oe[1]                                  |uio_oe[1]                                  
+uio_out[6]                                 |uio_out[6]                                 
+uio_oe[3]                                  |uio_oe[3]                                  
+uio_out[7]                                 |uio_out[7]                                 
+uio_oe[4]                                  |uio_oe[4]                                  
+uo_out[1]                                  |uo_out[1]                                  
+uio_oe[5]                                  |uio_oe[5]                                  
+uo_out[2]                                  |uo_out[2]                                  
+uio_oe[6]                                  |uio_oe[6]                                  
+uo_out[3]                                  |uo_out[3]                                  
+uio_oe[7]                                  |uio_oe[7]                                  
+clk                                        |clk                                        
+ena                                        |ena                                        
+rst_n                                      |rst_n                                      
+ua[2]                                      |ua[2]                                      
+ua[3]                                      |ua[3]                                      
+ua[4]                                      |ua[4]                                      
+ua[5]                                      |ua[5]                                      
+ua[6]                                      |ua[6]                                      
+ua[7]                                      |ua[7]                                      
+ui_in[0]                                   |ui_in[0]                                   
+ui_in[1]                                   |ui_in[1]                                   
+ui_in[2]                                   |ui_in[2]                                   
+ui_in[3]                                   |ui_in[3]                                   
+ui_in[4]                                   |ui_in[4]                                   
+ui_in[5]                                   |ui_in[5]                                   
+ui_in[6]                                   |ui_in[6]                                   
+ui_in[7]                                   |ui_in[7]                                   
+uio_in[0]                                  |uio_in[0]                                  
+uio_in[1]                                  |uio_in[1]                                  
+uio_in[2]                                  |uio_in[2]                                  
+uio_in[3]                                  |uio_in[3]                                  
+uio_in[4]                                  |uio_in[4]                                  
+uio_in[5]                                  |uio_in[5]                                  
+uio_in[6]                                  |uio_in[6]                                  
+uio_in[7]                                  |uio_in[7]                                  
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes tt_um_armohamed_r2rvc and tt_um_armohamed_r2rvc are equivalent.
+Circuits match uniquely.

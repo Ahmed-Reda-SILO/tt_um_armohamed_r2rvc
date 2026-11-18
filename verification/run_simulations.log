@@ -1,0 +1,49 @@
+Simulating schematic
+Simulating pex_c
+Simulating pex_rc
+{
+  "conditions": {
+    "corner": "TT",
+    "temperature_C": 27,
+    "VAPWR_V": 3.3,
+    "VDPWR_V": 1.8,
+    "load_pF": 1,
+    "VINP_low_V": 1.55,
+    "VINP_high_V": 1.75,
+    "VINM_V": 1.65,
+    "input_edges_ns": 1,
+    "frequency_MHz": 1
+  },
+  "metrics": {
+    "schematic": {
+      "tpd_rise_ns": 14.038830007415875,
+      "tpd_fall_ns": 10.45499427687236,
+      "analog_current_uA": 314.58924065095124,
+      "digital_current_uA": 2.158348811096893,
+      "power_mW": 1.0420295220081135,
+      "low_V": 2.65633075e-09,
+      "high_V": 1.79999998,
+      "logic_pass": true
+    },
+    "pex_c": {
+      "tpd_rise_ns": 17.30163339120014,
+      "tpd_fall_ns": 13.926822067360593,
+      "analog_current_uA": 303.9697023770371,
+      "digital_current_uA": 2.236203680656357,
+      "power_mW": 1.0071251844694038,
+      "low_V": 2.6463989723999997e-09,
+      "high_V": 1.79999998716012,
+      "logic_pass": true
+    },
+    "pex_rc": {
+      "tpd_rise_ns": 15.692256108140043,
+      "tpd_fall_ns": 11.756161300073959,
+      "analog_current_uA": 297.6546100458474,
+      "digital_current_uA": 2.195958323738444,
+      "power_mW": 0.9862129381340256,
+      "low_V": 0.000200193864,
+      "high_V": 1.79999895690987,
+      "logic_pass": true
+    }
+  }
+}

@@ -1,0 +1,308 @@
+[
+  {
+   "name": [
+      "arm_r2rvc_lsbufhv2lv",
+      "arm_r2rvc_lsbufhv2lv"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_g5v0d10v5", 2],
+         ["sky130_fd_pr__nfet_01v8", 1],
+         ["sky130_fd_pr__nfet_g5v0d10v5", 4],
+         ["sky130_fd_pr__pfet_01v8_hvt", 3 ]
+       ], [
+         ["sky130_fd_pr__pfet_g5v0d10v5", 2 ],
+         ["sky130_fd_pr__nfet_01v8", 1 ],
+         ["sky130_fd_pr__nfet_g5v0d10v5", 4 ],
+         ["sky130_fd_pr__pfet_01v8_hvt", 3 ]
+       ]
+   ],
+   "nets": [
+    11,
+    11
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "LVPWR",
+        "VPWR",
+        "VPB",
+        "X",
+        "A",
+        "VGND",
+        "VNB"
+      ], [
+        "LVPWR",
+        "VPWR",
+        "VPB",
+        "X",
+        "A",
+        "VGND",
+        "VNB"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "comparator_bias",
+      "comparator_bias"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__res_high_po_1p41", 1],
+         ["sky130_fd_pr__nfet_g5v0d10v5", 6],
+         ["sky130_fd_pr__pfet_g5v0d10v5", 4 ]
+       ], [
+         ["sky130_fd_pr__res_high_po_1p41", 1 ],
+         ["sky130_fd_pr__nfet_g5v0d10v5", 6 ],
+         ["sky130_fd_pr__pfet_g5v0d10v5", 4 ]
+       ]
+   ],
+   "nets": [
+    6,
+    6
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VBP",
+        "VSS",
+        "VDD",
+        "VBN"
+      ], [
+        "VBP",
+        "VSS",
+        "VDD",
+        "VBN"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "comparator",
+      "comparator"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_g5v0d10v5", 13],
+         ["sky130_fd_pr__nfet_g5v0d10v5", 13 ]
+       ], [
+         ["sky130_fd_pr__pfet_g5v0d10v5", 13 ],
+         ["sky130_fd_pr__nfet_g5v0d10v5", 13 ]
+       ]
+   ],
+   "nets": [
+    17,
+    17
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VBN",
+        "VBP",
+        "VINP",
+        "VINM",
+        "VOUT",
+        "VSS",
+        "VDD"
+      ], [
+        "VBN",
+        "VBP",
+        "VINP",
+        "VINM",
+        "VOUT",
+        "VSS",
+        "VDD"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "EF_R2RVC",
+      "EF_R2RVC"
+   ],
+   "devices": [
+       [
+         ["arm_r2rvc_lsbufhv2lv", 1],
+         ["comparator_bias", 1],
+         ["comparator", 1 ]
+       ], [
+         ["arm_r2rvc_lsbufhv2lv", 1 ],
+         ["comparator_bias", 1 ],
+         ["comparator", 1 ]
+       ]
+   ],
+   "nets": [
+    10,
+    10
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VDD",
+        "VINP",
+        "VINM",
+        "DVDD",
+        "VOUT",
+        "VSS",
+        "DVSS"
+      ], [
+        "VDD",
+        "VINP",
+        "VINM",
+        "DVDD",
+        "VOUT",
+        "VSS",
+        "DVSS"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "tt_um_armohamed_r2rvc",
+      "tt_um_armohamed_r2rvc"
+   ],
+   "devices": [
+       [
+         ["EF_R2RVC", 1],
+         ["r", 23 ]
+       ], [
+         ["EF_R2RVC", 1 ],
+         ["r", 23 ]
+       ]
+   ],
+   "nets": [
+    29,
+    29
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VGND",
+        "VAPWR",
+        "VDPWR",
+        "ua[0]",
+        "ua[1]",
+        "uo_out[0]",
+        "uo_out[4]",
+        "uio_out[0]",
+        "uo_out[5]",
+        "uio_out[1]",
+        "uio_out[2]",
+        "uio_oe[0]",
+        "uo_out[6]",
+        "uo_out[7]",
+        "uio_out[3]",
+        "uio_out[5]",
+        "uio_out[4]",
+        "uio_oe[2]",
+        "uio_oe[1]",
+        "uio_out[6]",
+        "uio_oe[3]",
+        "uio_out[7]",
+        "uio_oe[4]",
+        "uo_out[1]",
+        "uio_oe[5]",
+        "uo_out[2]",
+        "uio_oe[6]",
+        "uo_out[3]",
+        "uio_oe[7]",
+        "clk",
+        "ena",
+        "rst_n",
+        "ua[2]",
+        "ua[3]",
+        "ua[4]",
+        "ua[5]",
+        "ua[6]",
+        "ua[7]",
+        "ui_in[0]",
+        "ui_in[1]",
+        "ui_in[2]",
+        "ui_in[3]",
+        "ui_in[4]",
+        "ui_in[5]",
+        "ui_in[6]",
+        "ui_in[7]",
+        "uio_in[0]",
+        "uio_in[1]",
+        "uio_in[2]",
+        "uio_in[3]",
+        "uio_in[4]",
+        "uio_in[5]",
+        "uio_in[6]",
+        "uio_in[7]"
+      ], [
+        "VGND",
+        "VAPWR",
+        "VDPWR",
+        "ua[0]",
+        "ua[1]",
+        "uo_out[0]",
+        "uo_out[4]",
+        "uio_out[0]",
+        "uo_out[5]",
+        "uio_out[1]",
+        "uio_out[2]",
+        "uio_oe[0]",
+        "uo_out[6]",
+        "uo_out[7]",
+        "uio_out[3]",
+        "uio_out[5]",
+        "uio_out[4]",
+        "uio_oe[2]",
+        "uio_oe[1]",
+        "uio_out[6]",
+        "uio_oe[3]",
+        "uio_out[7]",
+        "uio_oe[4]",
+        "uo_out[1]",
+        "uio_oe[5]",
+        "uo_out[2]",
+        "uio_oe[6]",
+        "uo_out[3]",
+        "uio_oe[7]",
+        "clk",
+        "ena",
+        "rst_n",
+        "ua[2]",
+        "ua[3]",
+        "ua[4]",
+        "ua[5]",
+        "ua[6]",
+        "ua[7]",
+        "ui_in[0]",
+        "ui_in[1]",
+        "ui_in[2]",
+        "ui_in[3]",
+        "ui_in[4]",
+        "ui_in[5]",
+        "ui_in[6]",
+        "ui_in[7]",
+        "uio_in[0]",
+        "uio_in[1]",
+        "uio_in[2]",
+        "uio_in[3]",
+        "uio_in[4]",
+        "uio_in[5]",
+        "uio_in[6]",
+        "uio_in[7]"
+      ]
+   ]
+  }
+]
