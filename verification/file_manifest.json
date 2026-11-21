@@ -25,19 +25,19 @@
     "git_blob_sha": "0aa27517a967597c589225ff0b6ecf074efc0403"
   },
   "README.md": {
-    "bytes": 3616,
-    "sha256": "1c518486f668663cb86d71f2cade69dc6461f64df1a9dfb8db2bfa7166a9bcb8",
-    "git_blob_sha": "9584ee73bc49056cfe685450ff2696f06f39fdda"
+    "bytes": 4756,
+    "sha256": "2f1b21c5ec7fef81e6976bf42d6d9a170231d1bb78f334fbd402561253c1c9b9",
+    "git_blob_sha": "9788c7db40bfd0b6c649e0161d7ab40219a72fda"
   },
   "VERIFICATION_REPORT.md": {
-    "bytes": 4842,
-    "sha256": "6599f7c68cccb3247fa7ebf37737e8efc09b1cbef142040e669d5654173cf82e",
-    "git_blob_sha": "1496ff43a24b0b95d54f3f000518e4b1f7402526"
+    "bytes": 5668,
+    "sha256": "e6ddc1fe6094586db43371f469eed241b9f9125f921f0952de4fa19edec9731c",
+    "git_blob_sha": "dbec8a188d3badd13a3c08d64333ca203f5771c0"
   },
   "docs/info.md": {
-    "bytes": 1892,
-    "sha256": "5b49d7612c4b22d3a29e6e5c961f2ca97cfd263efbbad10497afab077cc93ac3",
-    "git_blob_sha": "d06ef2396dbb6fc25a585bba35f731f042dcfd30"
+    "bytes": 3992,
+    "sha256": "3743e35fb2a8fa71489e04d7b93ab76af384f5468cc64a37c2a7adec7bfcc09c",
+    "git_blob_sha": "ef38641a365141dd74527ed0432c40a044d10a1c"
   },
   "gds/tt_um_armohamed_r2rvc.gds": {
     "bytes": 783732,
@@ -45,9 +45,9 @@
     "git_blob_sha": "f2b6bad1a50b83f713c1422b721f110556742c13"
   },
   "info.yaml": {
-    "bytes": 834,
-    "sha256": "cc1ce55c4bb54a178e361d9d942aa26fa83011a222283a21c4e60f386fe14132",
-    "git_blob_sha": "2ecef93111ded40e46aa2335ded11224da047952"
+    "bytes": 870,
+    "sha256": "56a1229eba72771f0a0aa8ed367801535e1311b168c1b810a4cd58e6e0df64ac",
+    "git_blob_sha": "dba8c2cccd51ec04974f38dcbad5401a19e3f4aa"
   },
   "ip/EF_R2RVC/layout/gds/EF_R2RVC.gds": {
     "bytes": 759616,
@@ -358,5 +358,15 @@
     "bytes": 12098,
     "sha256": "3c958a4b1ed195e9e27a10e0d584a1f3c0fb1a90a87a8c0cd849954ed3d2be78",
     "git_blob_sha": "f9cfc4c1ffb0d73f9c6fa4566f39435822ff422c"
+  },
+  "verification/operating_range_validation.md": {
+    "bytes": 4988,
+    "sha256": "860991acebdd66430c5b54dd992dc5e493d0766c2adab6f28151191591f84059",
+    "git_blob_sha": "b1c9279a2557b2aab9e78d40c00c3ee0dc0ac591"
+  },
+  "verification/operating_range_summary.json": {
+    "bytes": 25797,
+    "sha256": "c1802d6459858e2daf9fbc947a260769b110d854f3bbd21aa4b18f4a603091e4",
+    "git_blob_sha": "57ed658660a88993a43a521f926a97d5e7c27dd4"
   }
 }

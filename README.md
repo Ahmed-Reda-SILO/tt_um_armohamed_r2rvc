@@ -1,4 +1,4 @@
-# SKY130 rail-to-rail voltage comparator
+# SKY130 voltage comparator prototype
 
 Tiny Tapeout SKY130A analog/custom-GDS submission for `tt_um_armohamed_r2rvc`.
 The project integrates the corrected EF_R2RVC comparator into the official
@@ -23,6 +23,24 @@ simulations produce the expected logic output. See
 The wrapper also contains a 0.4 µm spacing adjustment in a custom-named level
 shifter cell. All MOS W/L values are retained. The revised exported GDS passes
 raw full DRC without HVI mask restoration, a modified deck, or a waiver.
+
+## Characterized operating limits
+
+This submission is an experimental comparator with a limited characterized
+common-mode range. The tested common-mode points from **0.3 to 2.4 V** pass
+all 135 deterministic PVT cases and 200 local-mismatch runs at differential
+input +/-20 mV, 1 MHz, and a 1 pF internal output load. These finite-grid
+results do not establish an unrestricted 0-3.3 V rail-to-rail specification.
+
+At VCM = 2.7 V, 311/335 runs meet the nominal 250 ns settling criterion,
+and 320/335 meet late-phase logic. The lower grid endpoint is not a measured
+minimum common-mode limit. Internal output HIGH follows VDPWR, nominally 1.8 V.
+
+See [the range-characterization record](verification/operating_range_validation.md)
+and [the numeric summary](verification/operating_range_summary.json) for the
+grid, conditions, failures, and scope. Device corners and temperature vary;
+extracted interconnect R/C remains fixed. MC here is native local mismatch,
+not statistical global-process MC or a silicon-yield guarantee.
 
 ## Main files
 
@@ -72,5 +90,7 @@ SKY130 shuttle, 1x2 area, two analog pins, and 3.3 V analog supply support.
 Confirm allocation and price in the app before placing the order. No shuttle
 registration or payment is performed by these repository files.
 
-The local simulations are nominal TT checks, not PVT/Monte Carlo or complete
-shuttle signoff. Final acceptance belongs to Tiny Tapeout's hosted flow.
+The rebuild script performs nominal TT checks. The additional RC-PEX PVT and
+local-mismatch characterization is recorded above and was performed separately.
+Neither is complete shuttle or packaged-silicon signoff. Final acceptance
+belongs to Tiny Tapeout's hosted flow.

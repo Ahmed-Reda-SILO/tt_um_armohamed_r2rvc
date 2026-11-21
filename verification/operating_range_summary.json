@@ -1,0 +1,1292 @@
+{
+  "source_commit": "007af305f79430bfe27b4513410a53def5a6e022",
+  "jobs": 335,
+  "missing": [],
+  "group_counts": {
+    "PVT": 135,
+    "MC_nominal": 100,
+    "MC_tt": 20,
+    "MC_ff": 20,
+    "MC_ss": 20,
+    "MC_sf": 20,
+    "MC_fs": 20
+  },
+  "common_mode_points_V": [
+    0.3,
+    0.6,
+    0.9,
+    1.2,
+    1.5,
+    1.65,
+    1.8,
+    2.1,
+    2.4,
+    2.7,
+    2.8,
+    2.9,
+    2.95,
+    3.0
+  ],
+  "legal_profiles": 4545,
+  "outside_rail_profiles": 145,
+  "prefixes": {
+    "all": {
+      "settled_250ns_pass": [
+        0.3,
+        0.6,
+        0.9,
+        1.2,
+        1.5,
+        1.65,
+        1.8,
+        2.1,
+        2.4
+      ],
+      "late_phase_pass": [
+        0.3,
+        0.6,
+        0.9,
+        1.2,
+        1.5,
+        1.65,
+        1.8,
+        2.1,
+        2.4
+      ]
+    },
+    "PVT": {
+      "settled_250ns_pass": [
+        0.3,
+        0.6,
+        0.9,
+        1.2,
+        1.5,
+        1.65,
+        1.8,
+        2.1,
+        2.4
+      ],
+      "late_phase_pass": [
+        0.3,
+        0.6,
+        0.9,
+        1.2,
+        1.5,
+        1.65,
+        1.8,
+        2.1,
+        2.4,
+        2.7
+      ]
+    },
+    "MC_nominal": {
+      "settled_250ns_pass": [
+        0.3,
+        0.6,
+        0.9,
+        1.2,
+        1.5,
+        1.65,
+        1.8,
+        2.1,
+        2.4,
+        2.7,
+        2.8,
+        2.9
+      ],
+      "late_phase_pass": [
+        0.3,
+        0.6,
+        0.9,
+        1.2,
+        1.5,
+        1.65,
+        1.8,
+        2.1,
+        2.4,
+        2.7,
+        2.8,
+        2.9,
+        2.95
+      ]
+    },
+    "MC_tt": {
+      "settled_250ns_pass": [
+        0.3,
+        0.6,
+        0.9,
+        1.2,
+        1.5,
+        1.65,
+        1.8,
+        2.1,
+        2.4
+      ],
+      "late_phase_pass": [
+        0.3,
+        0.6,
+        0.9,
+        1.2,
+        1.5,
+        1.65,
+        1.8,
+        2.1,
+        2.4
+      ]
+    },
+    "MC_ff": {
+      "settled_250ns_pass": [
+        0.3,
+        0.6,
+        0.9,
+        1.2,
+        1.5,
+        1.65,
+        1.8,
+        2.1,
+        2.4,
+        2.7
+      ],
+      "late_phase_pass": [
+        0.3,
+        0.6,
+        0.9,
+        1.2,
+        1.5,
+        1.65,
+        1.8,
+        2.1,
+        2.4,
+        2.7
+      ]
+    },
+    "MC_ss": {
+      "settled_250ns_pass": [
+        0.3,
+        0.6,
+        0.9,
+        1.2,
+        1.5,
+        1.65,
+        1.8,
+        2.1,
+        2.4
+      ],
+      "late_phase_pass": [
+        0.3,
+        0.6,
+        0.9,
+        1.2,
+        1.5,
+        1.65,
+        1.8,
+        2.1,
+        2.4
+      ]
+    },
+    "MC_sf": {
+      "settled_250ns_pass": [
+        0.3,
+        0.6,
+        0.9,
+        1.2,
+        1.5,
+        1.65,
+        1.8,
+        2.1,
+        2.4
+      ],
+      "late_phase_pass": [
+        0.3,
+        0.6,
+        0.9,
+        1.2,
+        1.5,
+        1.65,
+        1.8,
+        2.1,
+        2.4
+      ]
+    },
+    "MC_fs": {
+      "settled_250ns_pass": [
+        0.3,
+        0.6,
+        0.9,
+        1.2,
+        1.5,
+        1.65,
+        1.8,
+        2.1,
+        2.4,
+        2.7,
+        2.8
+      ],
+      "late_phase_pass": [
+        0.3,
+        0.6,
+        0.9,
+        1.2,
+        1.5,
+        1.65,
+        1.8,
+        2.1,
+        2.4,
+        2.7,
+        2.8,
+        2.9
+      ]
+    }
+  },
+  "upper_250ns_common_mode_V": 2.4,
+  "point_results": [
+    {
+      "cm_V": 0.3,
+      "all": {
+        "total": 335,
+        "valid": 335,
+        "outside_rails": 0,
+        "pass_250ns": 335,
+        "pass_late": 335
+      },
+      "PVT": {
+        "total": 135,
+        "valid": 135,
+        "outside_rails": 0,
+        "pass_250ns": 135,
+        "pass_late": 135
+      },
+      "MC_nominal": {
+        "total": 100,
+        "valid": 100,
+        "outside_rails": 0,
+        "pass_250ns": 100,
+        "pass_late": 100
+      },
+      "MC_tt": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      },
+      "MC_ff": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      },
+      "MC_ss": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      },
+      "MC_sf": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      },
+      "MC_fs": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      }
+    },
+    {
+      "cm_V": 0.6,
+      "all": {
+        "total": 335,
+        "valid": 335,
+        "outside_rails": 0,
+        "pass_250ns": 335,
+        "pass_late": 335
+      },
+      "PVT": {
+        "total": 135,
+        "valid": 135,
+        "outside_rails": 0,
+        "pass_250ns": 135,
+        "pass_late": 135
+      },
+      "MC_nominal": {
+        "total": 100,
+        "valid": 100,
+        "outside_rails": 0,
+        "pass_250ns": 100,
+        "pass_late": 100
+      },
+      "MC_tt": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      },
+      "MC_ff": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      },
+      "MC_ss": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      },
+      "MC_sf": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      },
+      "MC_fs": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      }
+    },
+    {
+      "cm_V": 0.9,
+      "all": {
+        "total": 335,
+        "valid": 335,
+        "outside_rails": 0,
+        "pass_250ns": 335,
+        "pass_late": 335
+      },
+      "PVT": {
+        "total": 135,
+        "valid": 135,
+        "outside_rails": 0,
+        "pass_250ns": 135,
+        "pass_late": 135
+      },
+      "MC_nominal": {
+        "total": 100,
+        "valid": 100,
+        "outside_rails": 0,
+        "pass_250ns": 100,
+        "pass_late": 100
+      },
+      "MC_tt": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      },
+      "MC_ff": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      },
+      "MC_ss": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      },
+      "MC_sf": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      },
+      "MC_fs": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      }
+    },
+    {
+      "cm_V": 1.2,
+      "all": {
+        "total": 335,
+        "valid": 335,
+        "outside_rails": 0,
+        "pass_250ns": 335,
+        "pass_late": 335
+      },
+      "PVT": {
+        "total": 135,
+        "valid": 135,
+        "outside_rails": 0,
+        "pass_250ns": 135,
+        "pass_late": 135
+      },
+      "MC_nominal": {
+        "total": 100,
+        "valid": 100,
+        "outside_rails": 0,
+        "pass_250ns": 100,
+        "pass_late": 100
+      },
+      "MC_tt": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      },
+      "MC_ff": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      },
+      "MC_ss": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      },
+      "MC_sf": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      },
+      "MC_fs": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      }
+    },
+    {
+      "cm_V": 1.5,
+      "all": {
+        "total": 335,
+        "valid": 335,
+        "outside_rails": 0,
+        "pass_250ns": 335,
+        "pass_late": 335
+      },
+      "PVT": {
+        "total": 135,
+        "valid": 135,
+        "outside_rails": 0,
+        "pass_250ns": 135,
+        "pass_late": 135
+      },
+      "MC_nominal": {
+        "total": 100,
+        "valid": 100,
+        "outside_rails": 0,
+        "pass_250ns": 100,
+        "pass_late": 100
+      },
+      "MC_tt": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      },
+      "MC_ff": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      },
+      "MC_ss": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      },
+      "MC_sf": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      },
+      "MC_fs": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      }
+    },
+    {
+      "cm_V": 1.65,
+      "all": {
+        "total": 335,
+        "valid": 335,
+        "outside_rails": 0,
+        "pass_250ns": 335,
+        "pass_late": 335
+      },
+      "PVT": {
+        "total": 135,
+        "valid": 135,
+        "outside_rails": 0,
+        "pass_250ns": 135,
+        "pass_late": 135
+      },
+      "MC_nominal": {
+        "total": 100,
+        "valid": 100,
+        "outside_rails": 0,
+        "pass_250ns": 100,
+        "pass_late": 100
+      },
+      "MC_tt": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      },
+      "MC_ff": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      },
+      "MC_ss": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      },
+      "MC_sf": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      },
+      "MC_fs": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      }
+    },
+    {
+      "cm_V": 1.8,
+      "all": {
+        "total": 335,
+        "valid": 335,
+        "outside_rails": 0,
+        "pass_250ns": 335,
+        "pass_late": 335
+      },
+      "PVT": {
+        "total": 135,
+        "valid": 135,
+        "outside_rails": 0,
+        "pass_250ns": 135,
+        "pass_late": 135
+      },
+      "MC_nominal": {
+        "total": 100,
+        "valid": 100,
+        "outside_rails": 0,
+        "pass_250ns": 100,
+        "pass_late": 100
+      },
+      "MC_tt": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      },
+      "MC_ff": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      },
+      "MC_ss": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      },
+      "MC_sf": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      },
+      "MC_fs": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      }
+    },
+    {
+      "cm_V": 2.1,
+      "all": {
+        "total": 335,
+        "valid": 335,
+        "outside_rails": 0,
+        "pass_250ns": 335,
+        "pass_late": 335
+      },
+      "PVT": {
+        "total": 135,
+        "valid": 135,
+        "outside_rails": 0,
+        "pass_250ns": 135,
+        "pass_late": 135
+      },
+      "MC_nominal": {
+        "total": 100,
+        "valid": 100,
+        "outside_rails": 0,
+        "pass_250ns": 100,
+        "pass_late": 100
+      },
+      "MC_tt": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      },
+      "MC_ff": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      },
+      "MC_ss": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      },
+      "MC_sf": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      },
+      "MC_fs": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      }
+    },
+    {
+      "cm_V": 2.4,
+      "all": {
+        "total": 335,
+        "valid": 335,
+        "outside_rails": 0,
+        "pass_250ns": 335,
+        "pass_late": 335
+      },
+      "PVT": {
+        "total": 135,
+        "valid": 135,
+        "outside_rails": 0,
+        "pass_250ns": 135,
+        "pass_late": 135
+      },
+      "MC_nominal": {
+        "total": 100,
+        "valid": 100,
+        "outside_rails": 0,
+        "pass_250ns": 100,
+        "pass_late": 100
+      },
+      "MC_tt": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      },
+      "MC_ff": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      },
+      "MC_ss": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      },
+      "MC_sf": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      },
+      "MC_fs": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      }
+    },
+    {
+      "cm_V": 2.7,
+      "all": {
+        "total": 335,
+        "valid": 335,
+        "outside_rails": 0,
+        "pass_250ns": 311,
+        "pass_late": 320
+      },
+      "PVT": {
+        "total": 135,
+        "valid": 135,
+        "outside_rails": 0,
+        "pass_250ns": 132,
+        "pass_late": 135
+      },
+      "MC_nominal": {
+        "total": 100,
+        "valid": 100,
+        "outside_rails": 0,
+        "pass_250ns": 100,
+        "pass_late": 100
+      },
+      "MC_tt": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 18,
+        "pass_late": 19
+      },
+      "MC_ff": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      },
+      "MC_ss": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 15,
+        "pass_late": 16
+      },
+      "MC_sf": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 6,
+        "pass_late": 10
+      },
+      "MC_fs": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      }
+    },
+    {
+      "cm_V": 2.8,
+      "all": {
+        "total": 335,
+        "valid": 335,
+        "outside_rails": 0,
+        "pass_250ns": 290,
+        "pass_late": 301
+      },
+      "PVT": {
+        "total": 135,
+        "valid": 135,
+        "outside_rails": 0,
+        "pass_250ns": 129,
+        "pass_late": 132
+      },
+      "MC_nominal": {
+        "total": 100,
+        "valid": 100,
+        "outside_rails": 0,
+        "pass_250ns": 100,
+        "pass_late": 100
+      },
+      "MC_tt": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 12,
+        "pass_late": 14
+      },
+      "MC_ff": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 16,
+        "pass_late": 18
+      },
+      "MC_ss": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 10,
+        "pass_late": 13
+      },
+      "MC_sf": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 3,
+        "pass_late": 4
+      },
+      "MC_fs": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 20,
+        "pass_late": 20
+      }
+    },
+    {
+      "cm_V": 2.9,
+      "all": {
+        "total": 335,
+        "valid": 335,
+        "outside_rails": 0,
+        "pass_250ns": 262,
+        "pass_late": 284
+      },
+      "PVT": {
+        "total": 135,
+        "valid": 135,
+        "outside_rails": 0,
+        "pass_250ns": 120,
+        "pass_late": 129
+      },
+      "MC_nominal": {
+        "total": 100,
+        "valid": 100,
+        "outside_rails": 0,
+        "pass_250ns": 100,
+        "pass_late": 100
+      },
+      "MC_tt": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 7,
+        "pass_late": 11
+      },
+      "MC_ff": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 9,
+        "pass_late": 11
+      },
+      "MC_ss": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 5,
+        "pass_late": 10
+      },
+      "MC_sf": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 2,
+        "pass_late": 3
+      },
+      "MC_fs": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 19,
+        "pass_late": 20
+      }
+    },
+    {
+      "cm_V": 2.95,
+      "all": {
+        "total": 335,
+        "valid": 335,
+        "outside_rails": 0,
+        "pass_250ns": 249,
+        "pass_late": 270
+      },
+      "PVT": {
+        "total": 135,
+        "valid": 135,
+        "outside_rails": 0,
+        "pass_250ns": 117,
+        "pass_late": 126
+      },
+      "MC_nominal": {
+        "total": 100,
+        "valid": 100,
+        "outside_rails": 0,
+        "pass_250ns": 99,
+        "pass_late": 100
+      },
+      "MC_tt": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 5,
+        "pass_late": 8
+      },
+      "MC_ff": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 7,
+        "pass_late": 9
+      },
+      "MC_ss": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 3,
+        "pass_late": 6
+      },
+      "MC_sf": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 2,
+        "pass_late": 3
+      },
+      "MC_fs": {
+        "total": 20,
+        "valid": 20,
+        "outside_rails": 0,
+        "pass_250ns": 16,
+        "pass_late": 18
+      }
+    },
+    {
+      "cm_V": 3.0,
+      "all": {
+        "total": 335,
+        "valid": 190,
+        "outside_rails": 145,
+        "pass_250ns": 184,
+        "pass_late": 188
+      },
+      "PVT": {
+        "total": 135,
+        "valid": 90,
+        "outside_rails": 45,
+        "pass_250ns": 87,
+        "pass_late": 90
+      },
+      "MC_nominal": {
+        "total": 100,
+        "valid": 100,
+        "outside_rails": 0,
+        "pass_250ns": 97,
+        "pass_late": 98
+      },
+      "MC_tt": {
+        "total": 20,
+        "valid": 0,
+        "outside_rails": 20,
+        "pass_250ns": 0,
+        "pass_late": 0
+      },
+      "MC_ff": {
+        "total": 20,
+        "valid": 0,
+        "outside_rails": 20,
+        "pass_250ns": 0,
+        "pass_late": 0
+      },
+      "MC_ss": {
+        "total": 20,
+        "valid": 0,
+        "outside_rails": 20,
+        "pass_250ns": 0,
+        "pass_late": 0
+      },
+      "MC_sf": {
+        "total": 20,
+        "valid": 0,
+        "outside_rails": 20,
+        "pass_250ns": 0,
+        "pass_late": 0
+      },
+      "MC_fs": {
+        "total": 20,
+        "valid": 0,
+        "outside_rails": 20,
+        "pass_250ns": 0,
+        "pass_late": 0
+      }
+    }
+  ],
+  "range_output_limits": {
+    "low_max_V": 0.0002792784814132003,
+    "high_min_V": 1.6199933760054999,
+    "low_max_fraction_VD": 0.00017186799683416664,
+    "high_min_fraction_VD": 0.999995911114506
+  },
+  "range_output_by_digital_supply": [
+    {
+      "digital_supply_V": 1.62,
+      "profiles": 1305,
+      "low_max_V": 0.00027842615487135,
+      "high_min_V": 1.6199933760054999
+    },
+    {
+      "digital_supply_V": 1.8,
+      "profiles": 1305,
+      "low_max_V": 0.0002792784814132003,
+      "high_min_V": 1.79999589363195
+    },
+    {
+      "digital_supply_V": 1.98,
+      "profiles": 405,
+      "low_max_V": 0.00027921319792096016,
+      "high_min_V": 1.979995409918405
+    }
+  ],
+  "range_edge_delay_ns": {
+    "n": 12060,
+    "min": 16.870577719642256,
+    "max": 195.3038179432413,
+    "mean": 38.772849732849394
+  },
+  "worst_in_range": [
+    {
+      "group": "PVT",
+      "id": "pvt_sf_2.97_1.62_125",
+      "corner": "sf",
+      "va": 2.97,
+      "vd": 1.62,
+      "temp": 125,
+      "cm": 2.4,
+      "seed": null,
+      "max_edge_delay_ns": 78.67467890558287
+    },
+    {
+      "group": "MC_nominal",
+      "id": "mc_tt_066",
+      "corner": "tt",
+      "va": 3.3,
+      "vd": 1.8,
+      "temp": 27,
+      "cm": 0.3,
+      "seed": 314225,
+      "max_edge_delay_ns": 195.3038179432413
+    },
+    {
+      "group": "MC_tt",
+      "id": "mc_stress_tt_13",
+      "corner": "tt",
+      "va": 2.97,
+      "vd": 1.62,
+      "temp": 125,
+      "cm": 0.3,
+      "seed": 8675322,
+      "max_edge_delay_ns": 119.67265436376317
+    },
+    {
+      "group": "MC_ff",
+      "id": "mc_stress_ff_13",
+      "corner": "ff",
+      "va": 2.97,
+      "vd": 1.62,
+      "temp": 125,
+      "cm": 0.3,
+      "seed": 8675322,
+      "max_edge_delay_ns": 101.82995323704867
+    },
+    {
+      "group": "MC_ss",
+      "id": "mc_stress_ss_13",
+      "corner": "ss",
+      "va": 2.97,
+      "vd": 1.62,
+      "temp": 125,
+      "cm": 0.3,
+      "seed": 8675322,
+      "max_edge_delay_ns": 146.48464632700998
+    },
+    {
+      "group": "MC_sf",
+      "id": "mc_stress_sf_13",
+      "corner": "sf",
+      "va": 2.97,
+      "vd": 1.62,
+      "temp": 125,
+      "cm": 0.3,
+      "seed": 8675322,
+      "max_edge_delay_ns": 132.98732816694556
+    },
+    {
+      "group": "MC_fs",
+      "id": "mc_stress_fs_13",
+      "corner": "fs",
+      "va": 2.97,
+      "vd": 1.62,
+      "temp": 125,
+      "cm": 0.3,
+      "seed": 8675322,
+      "max_edge_delay_ns": 113.02310706339013
+    }
+  ],
+  "precision_checks": [
+    {
+      "id": "precision_00",
+      "baseline_id": "pvt_sf_2.97_1.98_-40",
+      "same_full_grid": true,
+      "all_logic_classifications_match": true,
+      "max_delay_difference_ns": 0.6503355622780873
+    },
+    {
+      "id": "precision_01",
+      "baseline_id": "pvt_tt_2.97_1.62_125",
+      "same_full_grid": true,
+      "all_logic_classifications_match": true,
+      "max_delay_difference_ns": 0.7425593426110595
+    },
+    {
+      "id": "precision_02",
+      "baseline_id": "mc_tt_014",
+      "same_full_grid": true,
+      "all_logic_classifications_match": true,
+      "max_delay_difference_ns": 1.5181638841642098
+    },
+    {
+      "id": "precision_03",
+      "baseline_id": "pvt_sf_2.97_1.62_125",
+      "same_full_grid": true,
+      "all_logic_classifications_match": true,
+      "max_delay_difference_ns": 0.5343379060310554
+    },
+    {
+      "id": "precision_04",
+      "baseline_id": "mc_stress_ss_01",
+      "same_full_grid": true,
+      "all_logic_classifications_match": true,
+      "max_delay_difference_ns": 0.13672822791669148
+    }
+  ],
+  "slow_boundary_checks": [
+    {
+      "id": "slow_sf_2.70",
+      "group": "slow_boundary",
+      "corner": "sf",
+      "va": 2.97,
+      "vd": 1.62,
+      "temp": 125,
+      "od": 0.02,
+      "protocol": "range_scan_v1",
+      "max_step_ns": 20,
+      "grid": [
+        2.7
+      ],
+      "frequency_Hz": 100000,
+      "settling_target_ns": 2500,
+      "rise_delays_ns": [
+        267.18377493245407,
+        267.28449903693803
+      ],
+      "fall_delays_ns": [
+        43.01159610152492,
+        42.981751908817046
+      ],
+      "simulation_completed": true,
+      "settled_2p5us_pass": true,
+      "late_phase_pass": true,
+      "late_samples_V": [
+        0.00012752129265169182,
+        1.619996848505,
+        0.00012467000725384982,
+        1.6199966337244,
+        0.00012783376597098124
+      ],
+      "output_min_V": -0.000242693525,
+      "output_max_V": 1.62000782,
+      "data_rows": 1649,
+      "wall_seconds": 31.654895145999944
+    },
+    {
+      "id": "slow_sf_2.80",
+      "group": "slow_boundary",
+      "corner": "sf",
+      "va": 2.97,
+      "vd": 1.62,
+      "temp": 125,
+      "od": 0.02,
+      "protocol": "range_scan_v1",
+      "max_step_ns": 20,
+      "grid": [
+        2.8
+      ],
+      "frequency_Hz": 100000,
+      "settling_target_ns": 2500,
+      "rise_delays_ns": [],
+      "fall_delays_ns": [],
+      "simulation_completed": true,
+      "settled_2p5us_pass": false,
+      "late_phase_pass": false,
+      "late_samples_V": [
+        0.00012637918481696471,
+        0.00014987593518092,
+        0.00012838463422456002,
+        0.00014963204865725,
+        0.00012838095880445
+      ],
+      "output_min_V": 6.68948038e-07,
+      "output_max_V": 1.62000426,
+      "data_rows": 1492,
+      "wall_seconds": 27.933319289999417
+    }
+  ],
+  "warning_jobs": [],
+  "model_scope": "Fixed RC PEX; deterministic PVT corners and native local mismatch only; no global-process statistical MC"
+}

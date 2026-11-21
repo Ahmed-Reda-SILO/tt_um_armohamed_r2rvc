@@ -2,7 +2,21 @@
 
 Local physical verification and nominal functional checks pass for the current
 `tt_um_armohamed_r2rvc` GDS. Review the GitHub Actions results for the exact
-revision selected for submission. No allocation, order, or payment has been made.
+revision selected for submission. Allocation, revision submission, and order status are managed in the Tiny
+Tapeout app.
+
+## Additional operating-range characterization (21 November 2026)
+
+Separate RC-PEX PVT and native local-mismatch scans use the unchanged physical
+design at source commit `007af305f79430bfe27b4513410a53def5a6e022`.
+All tested common-mode grid points from 0.3 to 2.4 V pass the declared
+settling criterion across 335 principal runs. Higher common modes have
+failures. The project is submitted as a comparator prototype with these
+documented limits, not an unrestricted 0-3.3 V performance guarantee.
+
+See [operating_range_validation.md](verification/operating_range_validation.md)
+for the conditions, exact counts, and model limitations. The nominal results
+and reproduction script below retain their original scope.
 
 ## Physical checks
 
@@ -85,7 +99,8 @@ chip PDN, board, package, and measurement path are outside this wrapper PEX.
 
 ## Scope and next action
 
-These are nominal simulations, not PVT, mismatch, complete-chip density,
+The nominal simulations in this file and the additional range study have
+separate documented scopes. Neither establishes complete-chip density,
 antenna, or packaged-silicon qualification. Check the hosted precheck on the
 submission commit. Then select this repository in the Tiny Tapeout app with
 1x2 area, two analog pins, and VAPWR enabled. Review the allocated shuttle,

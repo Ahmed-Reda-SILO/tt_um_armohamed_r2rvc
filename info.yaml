@@ -1,8 +1,8 @@
 project:
-  title: SKY130 Rail-to-Rail Voltage Comparator
+  title: SKY130 Voltage Comparator Prototype
   author: Ahmed Reda Mohamed
   discord: ''
-  description: EF_R2RVC comparator with 3.3 V analog and 1.8 V digital supplies
+  description: Experimental comparator; characterized VCM grid 0.3-2.4 V under documented conditions
   language: Analog
   clock_hz: 0
   tiles: 1x2
@@ -36,8 +36,8 @@ pinout:
   uio[5]: ''
   uio[6]: ''
   uio[7]: ''
-  ua[0]: 'VINP: noninverting comparator input (0 to VAPWR)'
-  ua[1]: 'VINM: inverting comparator input (0 to VAPWR)'
+  ua[0]: 'VINP: noninverting input; see documented operating limits'
+  ua[1]: 'VINM: inverting input; see documented operating limits'
   ua[2]: ''
   ua[3]: ''
   ua[4]: ''
